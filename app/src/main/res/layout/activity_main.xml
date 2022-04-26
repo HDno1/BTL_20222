@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_BTL">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/username"
+        android:id="@+id/usericon"
+        android:src="@drawable/ic_baseline_person_pin_24"
+        android:layout_centerVertical="true">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usericon"
+        android:layout_toLeftOf="@+id/password"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/ic_baseline_vpn_key_24"
+        android:layout_centerVertical="true">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Username">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:inputType="textPassword">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_login"
+        android:text="Login">
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_ques1"
+        android:textColor="@color/black"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btn_login"
+        android:layout_height="wrap_content"
+        android:text="NẾU BẠN QUÊN MẬT KHẨU?">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_ques2"
+        android:layout_marginTop="20dp"
+        android:onClick="forgot_pass"
+        android:contextClickable="true"
+        android:textColor="#002AFF"
+        android:layout_below="@+id/btn_login"
+        android:layout_toRightOf="@+id/tv_ques1"
+        android:layout_height="wrap_content"
+        android:text="NHẤN VÀO ĐÂY!!!">
+
+    </TextView>
+
+</RelativeLayout>

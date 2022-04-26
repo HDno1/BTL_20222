@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_toRightOf="@+id/checkBox"
+        android:id="@+id/tv_msv"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="Mã sinh viên">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_msv"
+        android:layout_toRightOf="@+id/checkBox"
+        android:text="Điểm: ">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_diemdanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_msv"
+        android:layout_toRightOf="@+id/tv_score"
+        android:text="Đã điểm danh">
+
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp">
+
+    </CheckBox>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_id"
+        android:layout_toRightOf="@+id/checkBox">
+
+    </TextView>
+
+</RelativeLayout>

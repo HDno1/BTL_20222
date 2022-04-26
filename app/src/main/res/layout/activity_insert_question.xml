@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity_insert_question">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập cau hỏi" />
+
+    <EditText
+        android:id="@+id/txt_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_below="@+id/txt_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập đáp án 1" />
+
+    <EditText
+        android:id="@+id/txt_question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/textView2"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_below="@id/txt_question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập đáp án 2" />
+
+    <EditText
+        android:id="@+id/txt_question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/textView3"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_below="@id/txt_question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập đáp án 3" />
+
+    <EditText
+        android:id="@+id/txt_question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/textView4"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/txt_question4"
+        android:layout_height="wrap_content"
+        android:text="Nhập đáp án 4" />
+
+    <EditText
+        android:id="@+id/txt_question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/textView5"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_below="@id/txt_question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập id đáp án đúng" />
+
+    <EditText
+        android:id="@+id/txt_question6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/textView6"
+        android:inputType="textPersonName"/>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_below="@id/txt_question6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Câu hỏi thuộc id môn" />
+
+    <EditText
+        android:id="@+id/txt_question7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/textView7"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_insert_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_question7"
+        android:text="Thêm" />
+
+
+
+</RelativeLayout>

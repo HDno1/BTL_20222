@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BTL_2022/app/src/main/res/font/insert_content.xml" value="0.3203125" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_delete_category.xml" value="0.23007246376811594" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_delete_question.xml" value="0.28489583333333335" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_edit_question.xml" value="0.14982578397212543" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_insert_content.xml" value="0.16666666666666666" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_insert_question.xml" value="0.5" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_load_ques.xml" value="0.38697916666666665" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_login_btl.xml" value="0.32019927536231885" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_main.xml" value="0.22131147540983606" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_main2.xml" value="0.28489583333333335" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_main_add_acount_sv.xml" value="0.33" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_main_admin.xml" value="0.38697916666666665" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_main_dele_student.xml" value="0.5" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_main_list_svtest.xml" value="0.3015625" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_main_test.xml" value="0.25" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_ques_view.xml" value="0.18819655521783182" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_question.xml" value="0.38697916666666665" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/activity_score.xml" value="0.31068840579710144" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/fragment_change_pass.xml" value="0.38697916666666665" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/fragment_favourite.xml" value="0.30104166666666665" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/fragment_history.xml" value="0.30104166666666665" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/fragment_home.xml" value="0.30104166666666665" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/insert_content.xml" value="0.16666666666666666" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/insert_question.xml" value="0.2864583333333333" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/item_view.xml" value="0.38697916666666665" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/item_view2.xml" value="0.38697916666666665" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/item_view_list_student_test.xml" value="0.3015625" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/layout_header_nav.xml" value="0.38697916666666665" />
+        <entry key="..\:/BTL_2022/app/src/main/res/layout/ques_view.xml" value="0.33" />
+        <entry key="..\:/BTL_2022/app/src/main/res/menu/activity_menu.xml" value="0.2471264367816092" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.38697916666666665" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
